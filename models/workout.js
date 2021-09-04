@@ -36,14 +36,12 @@ const WorkoutSchema = new Schema({
                 type: Number
             }
         }
-
-
     ]
 
 
 });
 
-const Workout = mongoose.model("workout", WorkoutSchema);
+const Workout = mongoose.model("Workout", WorkoutSchema);
 
 module.exports = Workout;
 
